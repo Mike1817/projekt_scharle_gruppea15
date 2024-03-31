@@ -6,6 +6,8 @@ const redis = require('redis');
 const host = 'localhost';
 const port = 8000;
 
+// Erstellen des Servers
+
 const app = express();
 const httpServer = http.createServer(app);
 const redisClient = redis.createClient();
