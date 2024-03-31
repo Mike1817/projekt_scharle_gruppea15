@@ -1,0 +1,15 @@
+<p>Lernmittelsammlung</p>
+<p>Phase 2: Implementierung von Websockets</p>
+<p>Funktion als Messenger</p>
+
+  <div>
+    <input type="text" [(ngModel)]="message" placeholder="Hier Nachricht eingeben">
+    <button (click)="sendMessage()">Send</button>
+  </div>
+
+  <div>
+    <ul>
+      <li *ngFor="let msg of messages">{{ msg }}</li>
+    </ul>
+  </div>
+  
