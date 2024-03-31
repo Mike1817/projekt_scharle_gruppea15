@@ -7,9 +7,11 @@ backend:
 npm install
 npm install redis
 npm install ws
+npm install express
 
 frontend:
 npm install
+npm install -g @angular/cli
 
 Starten des backends:
 node app.js
